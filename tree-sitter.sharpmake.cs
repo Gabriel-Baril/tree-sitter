@@ -2,9 +2,9 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class HdnCodeExternalTreeSitterProject : BaseCppProject
+public class DmCodeExternalTreeSitterProject : BaseCppProject
 {
-    public HdnCodeExternalTreeSitterProject()
+    public DmCodeExternalTreeSitterProject()
     {
         Name = "dm.code.external.tree-sitter";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
