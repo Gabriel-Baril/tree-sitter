@@ -6,7 +6,7 @@ public class HdnCodeExternalTreeSitterProject : BaseCppProject
 {
     public HdnCodeExternalTreeSitterProject()
     {
-        Name = "hdn.code.external.tree-sitter";
+        Name = "dm.code.external.tree-sitter";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
